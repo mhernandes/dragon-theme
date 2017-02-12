@@ -1,10 +1,9 @@
 # User and blog data
-description: >
-  Dragon theme
-# baseurl: "/dragon-theme"
 baseurl: "/dragon-theme"
 url: "https://mhernandes.github.io"
 title: Dragon Theme
+description: >
+  Dragon theme
 email: user@mail.com
 facebook: lorem
 instagram: lorem
