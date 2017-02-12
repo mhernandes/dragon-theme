@@ -52,15 +52,13 @@ github: your_username
 spotify: your_username
 ```
 
-## Theme SCSS
+## Theme SCSS and more
 
-The SCSS is in [dev/scss]() and the basic styles are in [dev/scss/pages/template](), the rest of theme is separated in folders, also inside of [dev/scss/pages]().
+The SCSS is in [dev/scss](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss) and the basic styles are in [dev/scss/pages/template](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/pages/template), the rest of theme is separated in folders, also inside of [dev/scss/pages](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/pages).
 
-## Customizing
+Each page(or kind of) has his own folder inside of [dev/scss/pages](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/pages) and then are component-separated. So if you want to change page' styles, you know where find the files.
 
-Each page(or kind of) has his own folder inside of [dev/scss/pages]() and then are component-separated. So if you want to change page' styles, you know where find the files.
-
-The [partials]() folder has partials files like `_base.scss` and `_colors.scss`.
+The [partials](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/partials) folder has partials files like `_base.scss` and `_colors.scss`.
 
 If you want to create post series, use the `series` on _config.yml, the same for creating projects and menu links.
 
@@ -75,7 +73,7 @@ In order to run Jekyll on local you need to:
 
 ## Issues
 
-If you're having problems with this theme and they aren't made by you, open and [issue]()
+If you're having problems with this theme and they aren't made by you, open and [issue](https://github.com/mhernandes/dragon-theme/issues)
 
 ## License
 
