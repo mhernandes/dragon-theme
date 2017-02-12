@@ -2,7 +2,7 @@
 description: >
   Dragon theme
 # baseurl: "/dragon-theme"
-baseurl: ""
+baseurl: "/dragon-theme"
 url: "https://mhernandes.github.io"
 title: Dragon Theme
 email: user@mail.com
