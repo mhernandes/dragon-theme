@@ -23,13 +23,13 @@
 			{% for related in site.related_posts limit:3 %}
 				<article class="posts__item" category="{{ related.category }}">
 					<div class="posts__item_category">
-						<a href="{{ site.url | append: '/category#' | append: related.category }}">
+						<a href="{{ site.baseurl | append: '/category#' | append: related.category }}">
 							{{ related.category }}
 						</a>
 					</div>
 
 					<div class="posts__item_title">
-						<a href="{{ related.url | prepend: site.url }}">
+						<a href="{{ related.url | prepend: site.baseurl }}">
 							{{ related.title | truncatewords: 10 }}
 						</a>
 					</div>

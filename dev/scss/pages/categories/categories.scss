@@ -4,7 +4,6 @@
 	&__cloud {
 		width: 80%;
 		margin: 50px auto;
-		//text-align: center;
 		@include flex(wrap row);
 
 		li {

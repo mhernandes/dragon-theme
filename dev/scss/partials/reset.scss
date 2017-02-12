@@ -17,10 +17,6 @@ a:active {
 	text-decoration: none;
 }
 
-p, span {
-	// @add font-size() mixin
-}
-
 section, header, footer {
 	width: 100%;
 	height: auto;
@@ -32,7 +28,6 @@ h4, h5, h6 {
 	font-family: $family-page, sans-serif;
 }
 
-// @add header() mixin to generate headers font-size
 h1 {font-size: 32px;}
 h2 {font-size: 24px;}
 h3 {font-size: 18.5px;}
@@ -50,11 +45,6 @@ input, textarea, button {
 input[type="button"],
 input[type="submit"],
 button { cursor: pointer; }
-
-/*::-webkit-input-placeholder {color: #fff;}
-:-moz-placeholder {color: #fff;}
-::-moz-placeholder {color: #fff;}
-:-ms-input-placeholder {color: #fff;}*/
 
 @media screen and (min-width: 1440px) {
 	body, .menu, .header::after {

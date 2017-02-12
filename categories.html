@@ -24,7 +24,7 @@ opacity: 0
 		            {% if post.title != null %}
 			            {% if group == null or group == post.group %}
 							<li>
-								<a href="{{ post.url }}" title="{{ post.title }}">
+								<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
 									{{ post.title }}
 									<span>{{ post.date | date: '%B %d, %Y' }}</span>
 								</a>

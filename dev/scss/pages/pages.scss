@@ -13,7 +13,6 @@
 // Blog
 @import 'blog/posts';
 @import 'blog/header';
-//@import 'blog/layout';
 @import 'blog/button';
 @import 'blog/item';
 
@@ -22,8 +21,6 @@
 @import 'about/profile';
 @import 'about/projects';
 @import 'about/skills';
-//@import 'about/games';
-@import 'about/spotify';
 @import 'about/end';
 
 // Tags
@@ -44,6 +41,3 @@
 @import "article/share";
 @import "article/related";
 @import "article/comments";
-
-// Category
-//@import "category/category";

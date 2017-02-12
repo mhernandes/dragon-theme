@@ -9,12 +9,6 @@ var menu = document.getElementsByClassName('menu'),
 
 
 menu__icon.addEventListener('click', function() {
-	/*if (menu__wrapper.className.indexOf('active') !== -1) {
-		menu__wrapper.className = 'menu__wrapper';
-	} else {
-		menu__wrapper.className += ' active';
-	}*/
-
 	if (menu__wrapper[0].className.indexOf('active') == -1) {
 		menu__wrapper[0].className += ' active';
 	}
