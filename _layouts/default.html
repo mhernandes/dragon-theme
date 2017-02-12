@@ -1,0 +1,11 @@
+<html>
+	{% include head.html %}
+<body {% if page.title %}class="{{ page.title | downcase }}-body"{% endif %}>
+	{% include header.html %}
+	{% include menu.html %}
+	
+	{{ content }}
+
+	{% include footer.html %}
+</body>
+</html>
