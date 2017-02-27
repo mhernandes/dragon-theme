@@ -1,7 +1,7 @@
 .header {
 	width: 100%;
 	height: 70vh;
-	background: $blue url('/assets/img/home.jpg') center no-repeat;
+	background: $blue url('../img/home.jpg') center no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	@include flex(wrap row);
