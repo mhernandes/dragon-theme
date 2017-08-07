@@ -26,7 +26,8 @@ Features:
 ## Getting Started
 
 1. [Install Jekyll](http://jekyllrb.com)
-1. Clone or fork the [Dragon Theme](https://github.com/mhernandes/dragon-theme)
+1. Clone or fork the [Dragon 
+Theme](https://github.com/onhernandes/dragon-theme)
 1. Edit `_config.yml` to personalize your site.
 1. Check out the sample post in `_posts` to see examples for assigning all of the data.
 1. Read the documentation below for customization.
@@ -54,11 +55,20 @@ spotify: your_username
 
 ## Theme SCSS and more
 
-The SCSS is in [dev/scss](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss) and the basic styles are in [dev/scss/pages/template](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/pages/template), the rest of theme is separated in folders, also inside of [dev/scss/pages](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/pages).
+The SCSS is in 
+[dev/scss](https://github.com/onhernandes/dragon-theme/tree/master/dev/scss) 
+and the basic styles are in 
+[dev/scss/pages/template](https://github.com/onhernandes/dragon-theme/tree/master/dev/scss/pages/template), 
+the rest of theme is separated in folders, also inside of 
+[dev/scss/pages](https://github.com/onhernandes/dragon-theme/tree/master/dev/scss/pages).
 
-Each page(or kind of) has his own folder inside of [dev/scss/pages](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/pages) and then are component-separated. So if you want to change page' styles, you know where find the files.
+Each page(or kind of) has his own folder inside of 
+[dev/scss/pages](https://github.com/onhernandes/dragon-theme/tree/master/dev/scss/pages) 
+and then are component-separated. So if you want to change page' styles, you know where find the files.
 
-The [partials](https://github.com/mhernandes/dragon-theme/tree/master/dev/scss/partials) folder has partials files like `_base.scss` and `_colors.scss`.
+The 
+[partials](https://github.com/onhernandes/dragon-theme/tree/master/dev/scss/partials) 
+folder has partials files like `_base.scss` and `_colors.scss`.
 
 If you want to create post series, use the `series` on _config.yml, the same for creating projects and menu links.
 
